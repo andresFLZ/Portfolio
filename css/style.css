@@ -61,3 +61,63 @@ body {
   margin: 10px 0;
 }
 
+.about {
+  margin: 20px;
+}
+
+.about .information {
+  border: solid 3px #190000;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.about .information h1{
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: underline;
+  text-decoration-color: #014023;
+  text-decoration-thickness: 5px;
+  text-transform: uppercase;
+}
+
+.about .information h2 {
+  text-align: left;
+}
+
+.about .information h3 {
+  text-align: left;
+}
+
+.about .information span {
+  color: #014023;
+}
+
+.about .information a {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  border-radius: 30px;
+  border: 1px solid #190000;
+  padding: 10px 20px;
+  margin-top: 30px;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.about .information a:hover {
+  background-color: #014023;
+  color: #D9CCC1;
+}
+
+
+.about .image {
+  width: 30vw;
+  margin: 0 auto;
+}
+
+.about .image img {
+  max-width: 100%;
+  height: auto;
+  border: solid 3px #190000;
+  border-radius: 10px;
+}
+
