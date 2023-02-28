@@ -1,41 +1,41 @@
 body {
-    background-color: #D9CCC1;
+  background-color: #D9CCC1;
 }
 
 #navbar {
-    background-color: #014023;
-    border-bottom: solid #190000;
+  background-color: #014023;
+  border-bottom: solid #190000;
 }
 
 #navbar a {
-    color: #D9CCC1;
+  color: #D9CCC1;
 }
 
 .navbar-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
   
 #navbar .nav-item {
-    position: relative;
-    padding: 10px;
+  position: relative;
+  padding: 10px;
 }
   
 #navbar .nav-item:before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background-color: #190000;
-    transform: scaleX(0);
-    transition: transform 0.3s ease-in-out;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #190000;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
 }
   
 #navbar .nav-item:hover:before {
-    transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 #footer {
@@ -60,19 +60,4 @@ body {
 #footer .contacto .item {
   margin: 10px 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
