@@ -17,12 +17,12 @@ body {
     align-items: center;
   }
   
-  .nav-item {
+#navbar .nav-item {
     position: relative;
     padding: 10px;
-  }
+}
   
-  .nav-item:before {
+#navbar .nav-item:before {
     content: "";
     position: absolute;
     bottom: 0;
@@ -32,8 +32,46 @@ body {
     background-color: #190000;
     transform: scaleX(0);
     transition: transform 0.3s ease-in-out;
-  }
+}
   
-  .nav-item:hover:before {
+#navbar .nav-item:hover:before {
     transform: scaleX(1);
-  }
+}
+
+#footer {
+  background-color: #014023;
+  color: #D9CCC1;
+  align-items: center;
+  justify-content: center;
+  border-top: solid #190000;
+}
+
+#footer .contacto {
+  margin: 0 auto;
+  text-align: center;
+  padding: 15px 0;
+}
+
+#footer .contacto i {
+  color: #D9CCC1;
+}
+
+#footer .contacto .item {
+  margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
