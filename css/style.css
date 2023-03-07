@@ -114,7 +114,6 @@ body {
   color: #D9CCC1;
 }
 
-
 .about .image {
   width: 30vw;
   margin: 0 auto;
@@ -126,6 +125,46 @@ body {
   border: solid 3px #190000;
   border-radius: 10px;
   box-shadow: 0 0 5px 10px rgb(0 0 0 / 20%);
+}
+
+#principal {
+  background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../img/fondo-inicio.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+#principal p {
+  color: #D9CCC1;  
+  text-align: center;
+}
+
+#principal .row {
+  display: inline-grid;
+  margin: 0 auto;
+}
+
+#principal h2 {
+  color: #D9CCC1;  
+  text-align: center;
+}
+
+#principal a {
+  display: inline-block;
+  text-decoration: none;
+  color: #D9CCC1;
+  background-color: #014023;
+  border-radius: 30px;
+  border: 1px solid #190000;
+  padding: 10px 20px;
+  transition: background-color 0.5s, color 0.5s;
+  margin: 20px auto;
+  width: auto;
+}
+
+#principal a:hover {
+  background-color: #D9CCC1;
+  color: #000;
 }
 
 @media (max-width: 767px) {
