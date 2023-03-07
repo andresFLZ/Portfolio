@@ -69,6 +69,7 @@ body {
   border: solid 3px #190000;
   border-radius: 10px;
   text-align: center;
+  box-shadow: 0 0 5px 10px rgb(0 0 0 / 20%);
 }
 
 .about .information h1{
@@ -124,6 +125,7 @@ body {
   height: auto;
   border: solid 3px #190000;
   border-radius: 10px;
+  box-shadow: 0 0 5px 10px rgb(0 0 0 / 20%);
 }
 
 @media (max-width: 767px) {
