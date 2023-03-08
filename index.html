@@ -24,19 +24,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#principal">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About me</a>
+                        <a class="nav-link" href="#aboutme">About me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Skills</a>
+                        <a class="nav-link" href="#skills">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
+                        <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact me</a>
+                        <a class="nav-link" href="#contacto">Contact me</a>
                     </li>
                 </ul>
             </div>
@@ -49,11 +49,11 @@
             <p>¡Hello!</p>
             <h2>I'm Andrés Limas, software developer</h2>
             <p>Let's work together</p>
-            <a href="#">Ir a Portafolio</a>
+            <a href="#">Go projects</a>
         </div>
     </div>
 
-    <div class="container-fluid container-md">
+    <div class="container-fluid container-md" id="aboutme">
         <div class="row align-items-center about">
             <div class="col-xs-12 col-md-6 information">
                 <h1>About me</h1>
@@ -61,7 +61,7 @@
                 <h3>Software developer</h3>
                 <p>I am a Systems Engineering student in the seventh semester. With the ability to work optimally in a team or individually, commitment and perseverance are essential for me when solving problems.</p>
                 <p>I seek to grow professionally, learning and helping the company, entity or person(s) to achieve their objectives. I would say that one of my greatest qualities is that I am constantly in search of learning and personal development, since I believe that every day we can take advantage of it to be a little better and reach the objectives that we set for ourselves, whether they are spiritual, work, academic, etc. .</p>
-                <a href="documents/Curriculum vitae.pdf" download="CV">Descargar CV</a>
+                <a href="documents/Curriculum vitae.pdf" download="CV">Download CV</a>
             </div>
             <div class="col-xs-12 col-md-6 image">
                 <img class="d-flex mx-auto" src="img/foto.jpg" alt="Foto de Andrés">
@@ -223,6 +223,26 @@
             </div>
         </div>
     </div>
+
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contact me now</h3>
+        <div class="contenedor-form">
+            <form id="form" action="https://formspree.io/f/xaykvwwj" method="POST">
+                <div class="fila mitad">
+                    <input name="nombre" type="text" placeholder="Name *" class="input-mitad">
+                    <input name="email" type="email" placeholder="Email addres" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input name="asunto" type="text" placeholder="Matter..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Your message..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Send message" class="btn-enviar">
+            </form>
+        </div>
+    </section>
 
     <!-- Footer -->
     <div class="container-fluid">
