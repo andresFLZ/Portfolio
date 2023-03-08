@@ -252,6 +252,8 @@ body {
   position: relative;
   overflow: hidden;
   display: flex;
+  box-shadow: 0 0 5px 5px rgb(0 0 0 / 20%);
+  border-radius: 15px;
 }
 
 #projects .project a {
@@ -265,6 +267,7 @@ body {
   object-fit: cover;
   margin: auto;
   transition: .5s;
+  border-radius: 15px;
 }
 
 #projects .project:hover img {
@@ -274,8 +277,8 @@ body {
 #projects .project .info {
   position: absolute;
   left: 0px;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: #F5381B;
+  background-color: rgba(1, 64, 35, 0.8);
+  color: #D9CCC1;
   width: 100%;
   padding: 10px;
   opacity: 0;
